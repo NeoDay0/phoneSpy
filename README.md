@@ -18,7 +18,8 @@ Offline phone‑number OSINT helper — zero API keys required, ready for drop�
 | **API‑ready stubs**  | Hooks in place for CNAM, spam‑score, Twilio Lookup, etc., when you want them.            |
 | **Version‑safe**     | Handles both old & new `phonenumbers` enum APIs – no TypeErrors.                         |
 
----
+--- ![f7d2f0c0-5718-4e57-9052-1d437e76f04d](https://github.com/user-attachments/assets/c38e8482-bbb9-4781-b89d-fe8c0db44ae4)
+
 
 ## 📂 Directory Layout
 
