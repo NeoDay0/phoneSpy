@@ -98,28 +98,7 @@ __pycache__/
 
 ---
 
-## 🧩 Extending PhoneSpy
 
-1. **Caller‑ID (CNAM):** Uncomment `OPTIONAL_API_CONFIG` in `phonespy.py` and drop your [OpenCNAM](https://www.opencnam.com/) SID/token.
-2. **Spam / reputation:** Pull blocklists (e.g., `phonefraudster.org`) and enrich in `basic_lookup()`.
-3. **GUI front‑end:** Import `basic_lookup()` into Tkinter or PySimpleGUI and pretty‑print in a dark‑mode window.
-4. **Module reuse:** The function returns a plain `dict`, perfect for integrating into GotYou, DarKsEtoolkiT, etc.
-
----
-
-## 🏃 Quick‑start: publish to GitHub
-
-```bash
-mkdir phonespy && cd phonespy
-# — add phonespy.py, README.md, requirements.txt, .gitignore, LICENSE —
-
-git init
-git add .
-git commit -m "Initial commit – PhoneSpy offline phone lookup tool"
-git branch -M main
-git remote add origin https://github.com/<your_username>/phonespy.git
-git push -u origin main
-```
 
 ---
 
